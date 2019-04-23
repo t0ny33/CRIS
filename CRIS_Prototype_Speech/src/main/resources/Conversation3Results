@@ -1,0 +1,942 @@
+{
+  "CONVERSATION_ID": "c#2019-03-27 17:57:11.161",
+  "conversationText": [
+    "Good morning! Elizabeth speaking. How can I help you?",
+    "Hello! I have a problem with my internet connection.",
+    "Is the problem related to the phone number you’re calling me from?",
+    "No, it’s not. The problem is on my Vodafone router. The one that has a SIM card in it.",
+    "A Vodafone Sim card. Do you know the number for that card?",
+    "No, I don't.",
+    "Will I find the number on the same account that your current phone number is registered to? Or is it a rechargeable SIM card?",
+    "Honestly I don’t know. The number is registered to a company. I can give you all the information related to that company, if it helps you.",
+    "The company’s registration number, please.",
+    "It’s R-O-1-2.",
+    "1-2.",
+    "3-4-5.",
+    "Yes",
+    "6-7",
+    "When was this issue first encountered?",
+    "Sometime yesterday afternoon there was a power outage and since then it hasn’t been working at all.",
+    "Is it dead, or?",
+    "The light on the router turned red.",
+    "OK!",
+    "Usually, the light stayed blue when the internet was working.",
+    "Let’s check together to see what’s the problem.",
+    "OK! ",
+    "What was the registered company name?",
+    "Automotive Repairs International.",
+    "I see! Mister Jack, are you the administrator of that company?",
+    "Yes, I am.",
+    "OK then! I see that multiple internet subscriptions are registered on this account. They all appear to be terminated. Did you make any requests for closing these subscriptions? They are all closed right now, it appears.",
+    "I think so. This is the problem, then?",
+    "Most likely.",
+    "I haven’t received, I really don’t know, any confirmation for closing them or any notification as to when they are supposed to be terminated.",
+    "Haven’t you been notified by your accountant specialist?",
+    "I can’t remember.",
+    "Ok then!",
+    "I can’t remember.",
+    "Just a bit.",
+    "I remember sending an e-mail for renegotiating my contract. I then proceeded to have a phone call and after that I can’t remember anything. I really can’t remember what happened next, but it’s possible that I’ve requested a cancelation.",
+    "It appears as such! Did you request cancelation for all the phone numbers associated with your account or just for a single one?",
+    "I need to check my e-mail to see exactly what happened.",
+    "Here it says that you’ve made your request on the 4th day of February. Most likely, after 30 days your subscription was terminated. That’s the way our policy handles such requests. After 30 days have passed the corresponding subscription is canceled automatically. Right now, your subscriptions show as terminated and every number associated with them.",
+    "Yeah.",
+    "If you wish to reactivate your subscription we can check and see what we need to do in order to do it. Right now, everything shows as deactivated in our system.",
+    "So that’s the problem, then. OK! Thank you and sorry to bother you!",
+    "No such thing. Is there any problem or any requests I might help you with?",
+    "No. There’s nothing right now. No.",
+    "All right then! If that’s everything I would gladly ask you to stay for a little while, if you don’t mind.",
+    "Sure!",
+    "I’d like to inform you that in approximately 24 hours you’ll be contacted by our robot, Andreea. Following this call a feedback survey will be generated automatically. If you consider that I’ve helped you solve your problem starting from the first call you can submit your rating there.",
+    "No, thank you.",
+    "All right. Thank you and have a nice day!",
+    "Good day! Bye, bye!"
+  ],
+  "agentText": [
+    "Good morning! Elizabeth speaking. How can I help you?",
+    "Is the problem related to the phone number you’re calling me from?",
+    "A Vodafone Sim card. Do you know the number for that card?",
+    "Will I find the number on the same account that your current phone number is registered to? Or is it a rechargeable SIM card?",
+    "The company’s registration number, please.",
+    "1-2.",
+    "Yes",
+    "When was this issue first encountered?",
+    "Is it dead, or?",
+    "OK!",
+    "Let’s check together to see what’s the problem.",
+    "What was the registered company name?",
+    "I see! Mister Jack, are you the administrator of that company?",
+    "OK then! I see that multiple internet subscriptions are registered on this account. They all appear to be terminated. Did you make any requests for closing these subscriptions? They are all closed right now, it appears.",
+    "Most likely.",
+    "Haven’t you been notified by your accountant specialist?",
+    "Ok then!",
+    "Just a bit.",
+    "It appears as such! Did you request cancelation for all the phone numbers associated with your account or just for a single one?",
+    "Here it says that you’ve made your request on the 4th day of February. Most likely, after 30 days your subscription was terminated. That’s the way our policy handles such requests. After 30 days have passed the corresponding subscription is canceled automatically. Right now, your subscriptions show as terminated and every number associated with them.",
+    "If you wish to reactivate your subscription we can check and see what we need to do in order to do it. Right now, everything shows as deactivated in our system.",
+    "No such thing. Is there any problem or any requests I might help you with?",
+    "All right then! If that’s everything I would gladly ask you to stay for a little while, if you don’t mind.",
+    "I’d like to inform you that in approximately 24 hours you’ll be contacted by our robot, Andreea. Following this call a feedback survey will be generated automatically. If you consider that I’ve helped you solve your problem starting from the first call you can submit your rating there.",
+    "All right. Thank you and have a nice day!"
+  ],
+  "clientText": [
+    "Hello! I have a problem with my internet connection.",
+    "No, it’s not. The problem is on my Vodafone router. The one that has a SIM card in it.",
+    "No, I don't.",
+    "Honestly I don’t know. The number is registered to a company. I can give you all the information related to that company, if it helps you.",
+    "It’s R-O-1-2.",
+    "3-4-5.",
+    "6-7",
+    "Sometime yesterday afternoon there was a power outage and since then it hasn’t been working at all.",
+    "The light on the router turned red.",
+    "Usually, the light stayed blue when the internet was working.",
+    "OK! ",
+    "Automotive Repairs International.",
+    "Yes, I am.",
+    "I think so. This is the problem, then?",
+    "I haven’t received, I really don’t know, any confirmation for closing them or any notification as to when they are supposed to be terminated.",
+    "I can’t remember.",
+    "I can’t remember.",
+    "I remember sending an e-mail for renegotiating my contract. I then proceeded to have a phone call and after that I can’t remember anything. I really can’t remember what happened next, but it’s possible that I’ve requested a cancelation.",
+    "I need to check my e-mail to see exactly what happened.",
+    "Yeah.",
+    "So that’s the problem, then. OK! Thank you and sorry to bother you!",
+    "No. There’s nothing right now. No.",
+    "Sure!",
+    "No, thank you.",
+    "Good day! Bye, bye!"
+  ],
+  "speakerNo": 2
+}
+
+NATURAL LANGUAGE API START
+--> APPLYING NLP ON CONVERSATION AS BULK
+======================================================================
+Text: Good morning! Elizabeth speaking. How can I help you? Hello! I have a problem with my internet connection. Is the problem related to the phone number you’re calling me from? No, it’s not. The problem is on my Vodafone router. The one that has a SIM card in it. A Vodafone Sim card. Do you know the number for that card? No, I don't. Will I find the number on the same account that your current phone number is registered to? Or is it a rechargeable SIM card? Honestly I don’t know. The number is registered to a company. I can give you all the information related to that company, if it helps you. The company’s registration number, please. It’s R-O-1-2. 1-2. 3-4-5. Yes 6-7 When was this issue first encountered? Sometime yesterday afternoon there was a power outage and since then it hasn’t been working at all. Is it dead, or? The light on the router turned red. OK! Usually, the light stayed blue when the internet was working. Let’s check together to see what’s the problem. OK!  What was the registered company name? Automotive Repairs International. I see! Mister Jack, are you the administrator of that company? Yes, I am. OK then! I see that multiple internet subscriptions are registered on this account. They all appear to be terminated. Did you make any requests for closing these subscriptions? They are all closed right now, it appears. I think so. This is the problem, then? Most likely. I haven’t received, I really don’t know, any confirmation for closing them or any notification as to when they are supposed to be terminated. Haven’t you been notified by your accountant specialist? I can’t remember. Ok then! I can’t remember. Just a bit. I remember sending an e-mail for renegotiating my contract. I then proceeded to have a phone call and after that I can’t remember anything. I really can’t remember what happened next, but it’s possible that I’ve requested a cancelation. It appears as such! Did you request cancelation for all the phone numbers associated with your account or just for a single one? I need to check my e-mail to see exactly what happened. Here it says that you’ve made your request on the 4th day of February. Most likely, after 30 days your subscription was terminated. That’s the way our policy handles such requests. After 30 days have passed the corresponding subscription is canceled automatically. Right now, your subscriptions show as terminated and every number associated with them. Yeah. If you wish to reactivate your subscription we can check and see what we need to do in order to do it. Right now, everything shows as deactivated in our system. So that’s the problem, then. OK! Thank you and sorry to bother you! No such thing. Is there any problem or any requests I might help you with? No. There’s nothing right now. No. All right then! If that’s everything I would gladly ask you to stay for a little while, if you don’t mind. Sure! I’d like to inform you that in approximately 24 hours you’ll be contacted by our robot, Andreea. Following this call a feedback survey will be generated automatically. If you consider that I’ve helped you solve your problem starting from the first call you can submit your rating there. No, thank you. All right. Thank you and have a nice day! Good day! Bye, bye! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 17.7
+
+======================================================================
+Entity analysis
+(number, 0.128)
+(one, 0.102)
+(card, 0.079)
+(SIM card, 0.047)
+(problem, 0.034)
+(phone number, 0.029)
+(SIM card, 0.024)
+(account, 0.023)
+(information, 0.022)
+(router, 0.020)
+(light, 0.019)
+(internet connection, 0.018)
+(Vodafone, 0.013)
+(Sim, 0.013)
+(power outage, 0.012)
+(registration number, 0.011)
+(Elizabeth, 0.011)
+(order, 0.010)
+(company, 0.009)
+(way, 0.007)
+(subscription, 0.007)
+(internet subscriptions, 0.007)
+(phone numbers, 0.007)
+(issue, 0.007)
+(internet, 0.006)
+(administrator, 0.006)
+(phone call, 0.005)
+(subscriptions, 0.005)
+(company name, 0.005)
+(confirmation, 0.005)
+(requests, 0.005)
+(e-mail, 0.005)
+(notification, 0.004)
+(everything, 0.004)
+(accountant specialist, 0.004)
+(bit, 0.004)
+(contract, 0.004)
+(R-O-1-2, 0.004)
+(nothing, 0.004)
+(system, 0.003)
+(thing, 0.003)
+(anything, 0.003)
+(call, 0.003)
+(Automotive Repairs International, 0.003)
+(Mister Jack, 0.003)
+(cancelation, 0.002)
+(robot, 0.002)
+(feedback survey, 0.002)
+(rating, 0.002)
+(request, 0.002)
+(policy, 0.001)
+(Andreea, 0.001)
+======================================================================
+
+--> APPLYING NLP ON AGENT SIDE CONVERSATION
+======================================================================
+Text: Good morning! Elizabeth speaking. How can I help you? Is the problem related to the phone number you’re calling me from? A Vodafone Sim card. Do you know the number for that card? Will I find the number on the same account that your current phone number is registered to? Or is it a rechargeable SIM card? The company’s registration number, please. 1-2. Yes When was this issue first encountered? Is it dead, or? OK! Let’s check together to see what’s the problem. What was the registered company name? I see! Mister Jack, are you the administrator of that company? OK then! I see that multiple internet subscriptions are registered on this account. They all appear to be terminated. Did you make any requests for closing these subscriptions? They are all closed right now, it appears. Most likely. Haven’t you been notified by your accountant specialist? Ok then! Just a bit. It appears as such! Did you request cancelation for all the phone numbers associated with your account or just for a single one? Here it says that you’ve made your request on the 4th day of February. Most likely, after 30 days your subscription was terminated. That’s the way our policy handles such requests. After 30 days have passed the corresponding subscription is canceled automatically. Right now, your subscriptions show as terminated and every number associated with them. If you wish to reactivate your subscription we can check and see what we need to do in order to do it. Right now, everything shows as deactivated in our system. No such thing. Is there any problem or any requests I might help you with? All right then! If that’s everything I would gladly ask you to stay for a little while, if you don’t mind. I’d like to inform you that in approximately 24 hours you’ll be contacted by our robot, Andreea. Following this call a feedback survey will be generated automatically. If you consider that I’ve helped you solve your problem starting from the first call you can submit your rating there. All right. Thank you and have a nice day! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 8.9
+
+======================================================================
+Entity analysis
+(number, 0.185)
+(card, 0.128)
+(SIM card, 0.068)
+(problem, 0.050)
+(phone number, 0.048)
+(account, 0.041)
+(way, 0.031)
+(Sim, 0.021)
+(Elizabeth, 0.019)
+(Vodafone, 0.018)
+(registration number, 0.018)
+(company, 0.015)
+(phone numbers, 0.012)
+(internet subscriptions, 0.012)
+(issue, 0.012)
+(subscription, 0.011)
+(administrator, 0.010)
+(request, 0.010)
+(requests, 0.009)
+(company name, 0.009)
+(subscriptions, 0.009)
+(accountant specialist, 0.008)
+(bit, 0.008)
+(order, 0.008)
+(everything, 0.007)
+(policy, 0.007)
+(Mister Jack, 0.004)
+(call, 0.004)
+(cancelation, 0.004)
+(robot, 0.004)
+(feedback survey, 0.004)
+(rating, 0.004)
+(system, 0.002)
+(thing, 0.002)
+(Andreea, 0.002)
+======================================================================
+
+--> APPLYING NLP ON CLIENT SIDE CONVERSATION
+======================================================================
+Text: Hello! I have a problem with my internet connection. No, it’s not. The problem is on my Vodafone router. The one that has a SIM card in it. No, I don't. Honestly I don’t know. The number is registered to a company. I can give you all the information related to that company, if it helps you. It’s R-O-1-2. 3-4-5. 6-7 Sometime yesterday afternoon there was a power outage and since then it hasn’t been working at all. The light on the router turned red. Usually, the light stayed blue when the internet was working. OK!  Automotive Repairs International. Yes, I am. I think so. This is the problem, then? I haven’t received, I really don’t know, any confirmation for closing them or any notification as to when they are supposed to be terminated. I can’t remember. I can’t remember. I remember sending an e-mail for renegotiating my contract. I then proceeded to have a phone call and after that I can’t remember anything. I really can’t remember what happened next, but it’s possible that I’ve requested a cancelation. I need to check my e-mail to see exactly what happened. Yeah. So that’s the problem, then. OK! Thank you and sorry to bother you! No. There’s nothing right now. No. Sure! No, thank you. Good day! Bye, bye! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 9.0
+
+======================================================================
+Entity analysis
+(problem, 0.234)
+(one, 0.221)
+(light, 0.064)
+(information, 0.055)
+(router, 0.051)
+(internet connection, 0.045)
+(SIM card, 0.045)
+(power outage, 0.032)
+(Vodafone, 0.027)
+(company, 0.019)
+(number, 0.017)
+(internet, 0.014)
+(confirmation, 0.012)
+(notification, 0.010)
+(e-mail, 0.008)
+(Automotive Repairs International, 0.007)
+(R-O-1-2, 0.007)
+(nothing, 0.007)
+(cancelation, 0.004)
+(contract, 0.003)
+(phone call, 0.003)
+(anything, 0.003)
+======================================================================
+
+--> APPLYING NLP ON EACH INDIVIDUAL PHRASE
+======================================================================
+Text: Good morning! Elizabeth speaking. How can I help you?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.8
+
+======================================================================
+Entity analysis
+(Elizabeth, 1.000)
+======================================================================
+
+======================================================================
+Text: Hello! I have a problem with my internet connection.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(problem, 0.585)
+(internet connection, 0.415)
+======================================================================
+
+======================================================================
+Text: Is the problem related to the phone number you’re calling me from?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(problem, 0.620)
+(phone number, 0.380)
+======================================================================
+
+======================================================================
+Text: No, it’s not. The problem is on my Vodafone router. The one that has a SIM card in it.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+(one, 0.584)
+(problem, 0.142)
+(router, 0.120)
+(SIM card, 0.083)
+(Vodafone, 0.072)
+======================================================================
+
+======================================================================
+Text: A Vodafone Sim card. Do you know the number for that card?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(card, 0.687)
+(Vodafone, 0.210)
+(Sim, 0.088)
+(number, 0.016)
+======================================================================
+
+======================================================================
+Text: No, I don't.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.3
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Will I find the number on the same account that your current phone number is registered to? Or is it a rechargeable SIM card?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+(number, 0.671)
+(phone number, 0.118)
+(SIM card, 0.107)
+(account, 0.104)
+======================================================================
+
+======================================================================
+Text: Honestly I don’t know. The number is registered to a company. I can give you all the information related to that company, if it helps you.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+(information, 0.469)
+(number, 0.228)
+(company, 0.179)
+(company, 0.124)
+======================================================================
+
+======================================================================
+Text: The company’s registration number, please.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(company, 0.723)
+(registration number, 0.277)
+======================================================================
+
+======================================================================
+Text: It’s R-O-1-2.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(R-O-1-2, 1.000)
+======================================================================
+
+======================================================================
+Text: 1-2.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: 3-4-5.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Yes
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: 6-7
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: When was this issue first encountered?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.5
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(issue, 1.000)
+======================================================================
+
+======================================================================
+Text: Sometime yesterday afternoon there was a power outage and since then it hasn’t been working at all.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.6
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+(power outage, 1.000)
+======================================================================
+
+======================================================================
+Text: Is it dead, or?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: The light on the router turned red.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(light, 0.732)
+(router, 0.268)
+======================================================================
+
+======================================================================
+Text: OK!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Usually, the light stayed blue when the internet was working.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(light, 0.798)
+(internet, 0.202)
+======================================================================
+
+======================================================================
+Text: Let’s check together to see what’s the problem.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(problem, 1.000)
+======================================================================
+
+======================================================================
+Text: OK! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: What was the registered company name?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.2
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(company name, 1.000)
+======================================================================
+
+======================================================================
+Text: Automotive Repairs International.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(Automotive Repairs International, 1.000)
+======================================================================
+
+======================================================================
+Text: I see! Mister Jack, are you the administrator of that company?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(company, 0.419)
+(Mister Jack, 0.347)
+(administrator, 0.235)
+======================================================================
+
+======================================================================
+Text: Yes, I am.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: OK then! I see that multiple internet subscriptions are registered on this account. They all appear to be terminated. Did you make any requests for closing these subscriptions? They are all closed right now, it appears.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+(internet subscriptions, 0.454)
+(account, 0.273)
+(requests, 0.200)
+(subscriptions, 0.073)
+======================================================================
+
+======================================================================
+Text: I think so. This is the problem, then?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(problem, 1.000)
+======================================================================
+
+======================================================================
+Text: Most likely.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: I haven’t received, I really don’t know, any confirmation for closing them or any notification as to when they are supposed to be terminated.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.8
+--> Magnitude: 0.8
+
+======================================================================
+Entity analysis
+(confirmation, 0.543)
+(notification, 0.457)
+======================================================================
+
+======================================================================
+Text: Haven’t you been notified by your accountant specialist?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(accountant specialist, 1.000)
+======================================================================
+
+======================================================================
+Text: I can’t remember.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Ok then!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: I can’t remember.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Just a bit.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(bit, 1.000)
+======================================================================
+
+======================================================================
+Text: I remember sending an e-mail for renegotiating my contract. I then proceeded to have a phone call and after that I can’t remember anything. I really can’t remember what happened next, but it’s possible that I’ve requested a cancelation.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.2
+--> Magnitude: 0.8
+
+======================================================================
+Entity analysis
+(e-mail, 0.600)
+(contract, 0.244)
+(phone call, 0.081)
+(anything, 0.055)
+(cancelation, 0.020)
+======================================================================
+
+======================================================================
+Text: It appears as such! Did you request cancelation for all the phone numbers associated with your account or just for a single one?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(phone numbers, 0.534)
+(cancelation, 0.286)
+(account, 0.180)
+======================================================================
+
+======================================================================
+Text: I need to check my e-mail to see exactly what happened.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.3
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+(e-mail, 1.000)
+======================================================================
+
+======================================================================
+Text: Here it says that you’ve made your request on the 4th day of February. Most likely, after 30 days your subscription was terminated. That’s the way our policy handles such requests. After 30 days have passed the corresponding subscription is canceled automatically. Right now, your subscriptions show as terminated and every number associated with them.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.2
+--> Magnitude: 1.2
+
+======================================================================
+Entity analysis
+(request, 0.518)
+(way, 0.186)
+(subscription, 0.077)
+(policy, 0.062)
+(requests, 0.060)
+(subscriptions, 0.044)
+(number, 0.030)
+(subscription, 0.024)
+======================================================================
+
+======================================================================
+Text: Yeah.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: If you wish to reactivate your subscription we can check and see what we need to do in order to do it. Right now, everything shows as deactivated in our system.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(order, 0.583)
+(subscription, 0.306)
+(everything, 0.060)
+(system, 0.051)
+======================================================================
+
+======================================================================
+Text: So that’s the problem, then. OK! Thank you and sorry to bother you!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(problem, 1.000)
+======================================================================
+
+======================================================================
+Text: No such thing. Is there any problem or any requests I might help you with?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 1.0
+
+======================================================================
+Entity analysis
+(thing, 0.752)
+(problem, 0.140)
+(requests, 0.108)
+======================================================================
+
+======================================================================
+Text: No. There’s nothing right now. No.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.2
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+(nothing, 1.000)
+======================================================================
+
+======================================================================
+Text: All right then! If that’s everything I would gladly ask you to stay for a little while, if you don’t mind.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(everything, 1.000)
+======================================================================
+
+======================================================================
+Text: Sure!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: I’d like to inform you that in approximately 24 hours you’ll be contacted by our robot, Andreea. Following this call a feedback survey will be generated automatically. If you consider that I’ve helped you solve your problem starting from the first call you can submit your rating there.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(robot, 0.277)
+(Andreea, 0.165)
+(call, 0.155)
+(feedback survey, 0.136)
+(call, 0.107)
+(problem, 0.094)
+(rating, 0.066)
+======================================================================
+
+======================================================================
+Text: No, thank you.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: All right. Thank you and have a nice day!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.4
+--> Magnitude: 0.9
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Good day! Bye, bye!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 1.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+NATURAL LANGUAGE API END
