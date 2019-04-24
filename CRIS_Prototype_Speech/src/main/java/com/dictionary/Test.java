@@ -11,7 +11,7 @@ public class Test implements DictionaryInterface {
 	private Map<String, Integer> dictionary;
 	private Map<String, Integer> maxDictionary;
 	private Map<String, Integer> trimMaxDictionary;
-	private String filePath = "C:\\Users\\EneR\\Desktop\\Eclipse Workspace\\CRIS_Prototype_Speech\\src\\main\\resources\\Conversation1";
+	private String filePath = "src\\main\\resources\\Conversation1";
 ;
 	private String error1 = ">>> ERROR: File has already been read!";
 	private String error2 = ">>> ERROR: You must first read the input file!";

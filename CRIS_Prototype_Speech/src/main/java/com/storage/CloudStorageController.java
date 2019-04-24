@@ -14,7 +14,6 @@ import com.google.cloud.storage.StorageException;
 import com.google.cloud.storage.Storage.BlobListOption;
 import com.google.cloud.storage.StorageClass;
 import com.google.cloud.storage.StorageOptions;
-import com.speech.DataStorage;
 import com.speech.Transcription;
 
 public class CloudStorageController {
@@ -154,7 +153,7 @@ public class CloudStorageController {
 				}
 			}
 
-			System.out.println("|--> Recordings URIs generated: " + listRecordingURI.size());
+			System.out.println("|--> Recording URIs generated: " + listRecordingURI.size());
 			System.out.println("---> DONE!");
 			System.out.println();
 			logStorage.saveGenericLog(listRecordingURI.size() + " URIs WERE GENERATED FOR DIRECTORY: " + directory
@@ -174,8 +173,8 @@ public class CloudStorageController {
 			ArrayList<String> listRecordingURI = new ArrayList<>();
 
 			System.out.println("---> GENERATING ALL RECORDING URIs..");
-			System.out.println("---> Bucket: " + bucketName);
-			System.out.println("---> Content type: " + contentType);
+			System.out.println("|--> Bucket: " + bucketName);
+			System.out.println("|--> Content type: " + contentType);
 
 			Bucket rootBucket = mainStorage.get(bucketName);
 
@@ -184,11 +183,11 @@ public class CloudStorageController {
 					listRecordingURI.add("gs://" + rootBucket.getName() + "/" + currentBlob.getName());
 				}
 			}
-			System.out.println("---> Recordings URIs generated: " + listRecordingURI.size());
+			System.out.println("|--> Recording URIs generated: " + listRecordingURI.size());
 			System.out.println("---> DONE!");
 			System.out.println();
 			logStorage.saveGenericLog(
-					listRecordingURI.size() + " WERE GENERATED FROM BUCKET:" + bucketName + " AT:" + time);
+					listRecordingURI.size() + " URI(S) WERE GENERATED FROM BUCKET:" + bucketName + " AT:" + time);
 			return listRecordingURI;
 		} catch (StorageException e) {
 			System.out.println("---> ERROR AT COMPLETE GENERATION FOR RECORDINGS URI PATHS!");
@@ -230,6 +229,7 @@ public class CloudStorageController {
 
 	public ArrayList<String> generateBatchRecordingsURI(String bucketName, String directory, String contentType) {
 		try {
+			directory = directory.concat("/");
 			Timestamp time = new Timestamp(System.currentTimeMillis());
 			Page<Blob> blobs = mainStorage.list(bucketName, BlobListOption.currentDirectory(),
 					BlobListOption.prefix(directory));
@@ -249,8 +249,8 @@ public class CloudStorageController {
 			System.out.println("|--> Bucket: " + bucketName);
 			System.out.println("|--> Directory: " + directory);
 			System.out.println("---> DONE!");
-			logStorage.saveGenericLog(listRecordingURI.size() + " URI(s) were generated from /" + bucketName + "/"
-					+ directory + " directory" + time);
+			logStorage.saveGenericLog(listRecordingURI.size() + " URI(S) WERE GENERATED FROM BUCKET:" + bucketName
+					+ " DIRECTORY: " + directory + " AT:" + time);
 			System.out.println();
 			return listRecordingURI;
 		} catch (StorageException e) {
@@ -288,9 +288,6 @@ public class CloudStorageController {
 			System.out.println("---> CHECK INPUT PARAMETERS AND TRY AGAIN...");
 			System.out.println();
 		}
-		System.out.println("---> ERROR AT SINGLE GENERATION FOR RECORDING URI PATH!");
-		System.out.println("---> CHECK INPUT PARAMETERS AND TRY AGAIN...");
-		System.out.println();
 		return null;
 	}
 }

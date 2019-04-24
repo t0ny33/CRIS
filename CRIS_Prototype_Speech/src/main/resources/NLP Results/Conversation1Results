@@ -1,0 +1,977 @@
+{
+  "CONVERSATION_ID": "c#2019-03-27 17:57:11.161",
+  "conversationText": [
+    "This is Margaret speaking. How can I help you?",
+    "Hello! Good day! I’m Thomas Jackson. I’m from Los Angeles, California. Sorry to bother you! I’ve just talked with one of your colleagues who has already told me how to set up my access points names. How to activate my mobile data service. But nothing works, changing the settings does nothing to make it work. My phone is a HTC One, registered on this phone number, but nothing, nothing works. I’ve done everything in the settings menu, I did everything that I was told. I did it a thousand times but it still doesn’t work.",
+    "For how long have you been encountering this issue?",
+    "Say again.",
+    "For how long has this issue been happening?",
+    "Ever since I’ve bought my phone.",
+    "Is it a new phone?",
+    "Yes.",
+    "I’m glad to hear that it’s a new phone! Alright, I’ll help you with your problem. Would you kindly go again to the settings menu screen for me?",
+    "Just a bit.",
+    "Is it Dual-SIM?",
+    "One second. Right. At the Access Point Names option?",
+    "Yes, Access Point Names.",
+    "I see a plus sign.",
+    "Yes. Press it and start editing a new APN entry.",
+    "Name?",
+    "Internet. Type it in lowercase.",
+    "Yeah. OK.",
+    "OK.",
+    "What about APN?",
+    "Live dot Vodafone dot com. Again, only with lowercase letters.",
+    "One second, just a bit.",
+    "Again, it’s live dot Vodafone dot com.",
+    "That’s it. Done!",
+    "Press “OK” so that it stays saved. What comes after APN? APN type or proxy?",
+    "All right! I pressed OK. Proxy. Port. I’m trying to tell you that, just one second. That I have my menu language set to Italian. I’m trying to tell you how it would sound like in English. It says proxy, port, username.",
+    "It’s live, L-I-V-E, again in lowercase.",
+    "Is it LIVE or LINE?",
+    "LIVE, L-I-V-E.",
+    "OK! All done!",
+    "The password is Vodafone, all with lowercase letters.",
+    "Yeah.",
+    "And after you’ve set the password to Vodafone, you’ll see right below it authentication type. It’s another option.",
+    "Authentication type.",
+    "Right there. Make sure PAP is selected. That’s P-A-P.",
+    "OK!",
+    "And for APN type, please type in default. That’s default, all in lowercase.",
+    "Ok. I did it.",
+    "That would be all. Now make sure you save the APN by clicking those 3 dots, in the upper-right part of the screen.",
+    "Ok. I’ve saved it.",
+    "After you’ve saved it, it’s important that it stays selected. Keep in mind that we’ve named it “internet”.",
+    "Yes. It has been selected.",
+    "That’s perfect! From what I’ve checked so far I see that you have option 6 activated on your account. I remind you that offer 6 has 50 GB of mobile data traffic, valid for 28 days. That means it’s active until the 4th of the following month. If you consider upgrading, to increase the valid period on your offer from 28 days to 5 weeks, you can opt for offer 7. Offer 7 has the same benefits as offer 6, but with an increase in the number of days it remains valid. OK, back to our problem. After we’ve finished talking shut down you phone, turn it on again, and check if your mobile data service is enabled and functional. I’ll call you back to check if everything is all right. Ok then.",
+    "Good, so now I turn it off and I’ll call you back to.",
+    "No, I’ll call you to check if everything is OK.",
+    "OK then. It will only take a couple of minutes.",
+    "All right! I’ll call you back in 5 minutes, max.",
+    "OK! Thank you so much for helping me!",
+    "Thank you as well for calling! Goodbye!",
+    "Thank you! Have a nice day!"
+  ],
+  "agentText": [
+    "This is Margaret speaking. How can I help you?",
+    "For how long have you been encountering this issue?",
+    "For how long has this issue been happening?",
+    "Is it a new phone?",
+    "I’m glad to hear that it’s a new phone! Alright, I’ll help you with your problem. Would you kindly go again to the settings menu screen for me?",
+    "Is it Dual-SIM?",
+    "Yes, Access Point Names.",
+    "Yes. Press it and start editing a new APN entry.",
+    "Internet. Type it in lowercase.",
+    "OK.",
+    "Live dot Vodafone dot com. Again, only with lowercase letters.",
+    "Again, it’s live dot Vodafone dot com.",
+    "Press “OK” so that it stays saved. What comes after APN? APN type or proxy?",
+    "It’s live, L-I-V-E, again in lowercase.",
+    "LIVE, L-I-V-E.",
+    "The password is Vodafone, all with lowercase letters.",
+    "And after you’ve set the password to Vodafone, you’ll see right below it authentication type. It’s another option.",
+    "Right there. Make sure PAP is selected. That’s P-A-P.",
+    "And for APN type, please type in default. That’s default, all in lowercase.",
+    "That would be all. Now make sure you save the APN by clicking those 3 dots, in the upper-right part of the screen.",
+    "After you’ve saved it, it’s important that it stays selected. Keep in mind that we’ve named it “internet”.",
+    "That’s perfect! From what I’ve checked so far I see that you have option 6 activated on your account. I remind you that offer 6 has 50 GB of mobile data traffic, valid for 28 days. That means it’s active until the 4th of the following month. If you consider upgrading, to increase the valid period on your offer from 28 days to 5 weeks, you can opt for offer 7. Offer 7 has the same benefits as offer 6, but with an increase in the number of days it remains valid. OK, back to our problem. After we’ve finished talking shut down you phone, turn it on again, and check if your mobile data service is enabled and functional. I’ll call you back to check if everything is all right. Ok then.",
+    "No, I’ll call you to check if everything is OK.",
+    "All right! I’ll call you back in 5 minutes, max.",
+    "Thank you as well for calling! Goodbye!"
+  ],
+  "clientText": [
+    "Hello! Good day! I’m Thomas Jackson. I’m from Los Angeles, California. Sorry to bother you! I’ve just talked with one of your colleagues who has already told me how to set up my access points names. How to activate my mobile data service. But nothing works, changing the settings does nothing to make it work. My phone is a HTC One, registered on this phone number, but nothing, nothing works. I’ve done everything in the settings menu, I did everything that I was told. I did it a thousand times but it still doesn’t work.",
+    "Say again.",
+    "Ever since I’ve bought my phone.",
+    "Yes.",
+    "Just a bit.",
+    "One second. Right. At the Access Point Names option?",
+    "I see a plus sign.",
+    "Name?",
+    "Yeah. OK.",
+    "What about APN?",
+    "One second, just a bit.",
+    "That’s it. Done!",
+    "All right! I pressed OK. Proxy. Port. I’m trying to tell you that, just one second. That I have my menu language set to Italian. I’m trying to tell you how it would sound like in English. It says proxy, port, username.",
+    "Is it LIVE or LINE?",
+    "OK! All done!",
+    "Yeah.",
+    "Authentication type.",
+    "OK!",
+    "Ok. I did it.",
+    "Ok. I’ve saved it.",
+    "Yes. It has been selected.",
+    "Good, so now I turn it off and I’ll call you back to.",
+    "OK then. It will only take a couple of minutes.",
+    "OK! Thank you so much for helping me!",
+    "Thank you! Have a nice day!"
+  ],
+  "speakerNo": 2
+}
+
+NATURAL LANGUAGE API START
+--> APPLYING NLP ON CONVERSATION AS BULK
+======================================================================
+Text: This is Margaret speaking. How can I help you? Hello! Good day! I’m Thomas Jackson. I’m from Los Angeles, California. Sorry to bother you! I’ve just talked with one of your colleagues who has already told me how to set up my access points names. How to activate my mobile data service. But nothing works, changing the settings does nothing to make it work. My phone is a HTC One, registered on this phone number, but nothing, nothing works. I’ve done everything in the settings menu, I did everything that I was told. I did it a thousand times but it still doesn’t work. For how long have you been encountering this issue? Say again. For how long has this issue been happening? Ever since I’ve bought my phone. Is it a new phone? Yes. I’m glad to hear that it’s a new phone! Alright, I’ll help you with your problem. Would you kindly go again to the settings menu screen for me? Just a bit. Is it Dual-SIM? One second. Right. At the Access Point Names option? Yes, Access Point Names. I see a plus sign. Yes. Press it and start editing a new APN entry. Name? Internet. Type it in lowercase. Yeah. OK. OK. What about APN? Live dot Vodafone dot com. Again, only with lowercase letters. One second, just a bit. Again, it’s live dot Vodafone dot com. That’s it. Done! Press “OK” so that it stays saved. What comes after APN? APN type or proxy? All right! I pressed OK. Proxy. Port. I’m trying to tell you that, just one second. That I have my menu language set to Italian. I’m trying to tell you how it would sound like in English. It says proxy, port, username. It’s live, L-I-V-E, again in lowercase. Is it LIVE or LINE? LIVE, L-I-V-E. OK! All done! The password is Vodafone, all with lowercase letters. Yeah. And after you’ve set the password to Vodafone, you’ll see right below it authentication type. It’s another option. Authentication type. Right there. Make sure PAP is selected. That’s P-A-P. OK! And for APN type, please type in default. That’s default, all in lowercase. Ok. I did it. That would be all. Now make sure you save the APN by clicking those 3 dots, in the upper-right part of the screen. Ok. I’ve saved it. After you’ve saved it, it’s important that it stays selected. Keep in mind that we’ve named it “internet”. Yes. It has been selected. That’s perfect! From what I’ve checked so far I see that you have option 6 activated on your account. I remind you that offer 6 has 50 GB of mobile data traffic, valid for 28 days. That means it’s active until the 4th of the following month. If you consider upgrading, to increase the valid period on your offer from 28 days to 5 weeks, you can opt for offer 7. Offer 7 has the same benefits as offer 6, but with an increase in the number of days it remains valid. OK, back to our problem. After we’ve finished talking shut down you phone, turn it on again, and check if your mobile data service is enabled and functional. I’ll call you back to check if everything is all right. Ok then. Good, so now I turn it off and I’ll call you back to. No, I’ll call you to check if everything is OK. OK then. It will only take a couple of minutes. All right! I’ll call you back in 5 minutes, max. OK! Thank you so much for helping me! Thank you as well for calling! Goodbye! Thank you! Have a nice day! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 20.4
+
+======================================================================
+Entity analysis
+(Margaret, 0.357)
+(phone, 0.077)
+(nothing, 0.040)
+(Vodafone, 0.033)
+(colleagues, 0.030)
+(offer, 0.025)
+(option, 0.020)
+(one, 0.017)
+(letters, 0.016)
+(access points names, 0.015)
+(settings, 0.015)
+(data service, 0.013)
+(phone number, 0.013)
+(HTC One, 0.012)
+(everything, 0.011)
+(issue, 0.010)
+(dot com, 0.007)
+(Vodafone dot com, 0.007)
+(Thomas Jackson, 0.007)
+(California, 0.007)
+(Los Angeles, 0.007)
+(settings menu, 0.005)
+(problem, 0.005)
+(times, 0.004)
+(type, 0.004)
+(password, 0.004)
+(second, 0.004)
+(lowercase, 0.004)
+(authentication type, 0.004)
+(APN type, 0.004)
+(all, 0.004)
+(proxy, 0.003)
+(port, 0.003)
+(settings menu screen, 0.003)
+(bit, 0.003)
+(Name, 0.003)
+(Internet, 0.003)
+(sign, 0.003)
+(default, 0.003)
+(username, 0.003)
+(entry, 0.003)
+(menu language, 0.003)
+(Access Point Names, 0.002)
+(number, 0.002)
+(SIM, 0.002)
+(L-I-V-E, 0.002)
+(benefits, 0.002)
+(increase, 0.002)
+(Proxy. Port, 0.002)
+(Italian, 0.002)
+(English, 0.002)
+(Goodbye, 0.002)
+(PAP, 0.002)
+(P-A-P, 0.002)
+(screen, 0.001)
+(internet, 0.001)
+(part, 0.001)
+(dots, 0.001)
+(mind, 0.001)
+(account, 0.001)
+(data traffic, 0.001)
+======================================================================
+
+--> APPLYING NLP ON AGENT SIDE CONVERSATION
+======================================================================
+Text: This is Margaret speaking. How can I help you? For how long have you been encountering this issue? For how long has this issue been happening? Is it a new phone? I’m glad to hear that it’s a new phone! Alright, I’ll help you with your problem. Would you kindly go again to the settings menu screen for me? Is it Dual-SIM? Yes, Access Point Names. Yes. Press it and start editing a new APN entry. Internet. Type it in lowercase. OK. Live dot Vodafone dot com. Again, only with lowercase letters. Again, it’s live dot Vodafone dot com. Press “OK” so that it stays saved. What comes after APN? APN type or proxy? It’s live, L-I-V-E, again in lowercase. LIVE, L-I-V-E. The password is Vodafone, all with lowercase letters. And after you’ve set the password to Vodafone, you’ll see right below it authentication type. It’s another option. Right there. Make sure PAP is selected. That’s P-A-P. And for APN type, please type in default. That’s default, all in lowercase. That would be all. Now make sure you save the APN by clicking those 3 dots, in the upper-right part of the screen. After you’ve saved it, it’s important that it stays selected. Keep in mind that we’ve named it “internet”. That’s perfect! From what I’ve checked so far I see that you have option 6 activated on your account. I remind you that offer 6 has 50 GB of mobile data traffic, valid for 28 days. That means it’s active until the 4th of the following month. If you consider upgrading, to increase the valid period on your offer from 28 days to 5 weeks, you can opt for offer 7. Offer 7 has the same benefits as offer 6, but with an increase in the number of days it remains valid. OK, back to our problem. After we’ve finished talking shut down you phone, turn it on again, and check if your mobile data service is enabled and functional. I’ll call you back to check if everything is all right. Ok then. No, I’ll call you to check if everything is OK. All right! I’ll call you back in 5 minutes, max. Thank you as well for calling! Goodbye! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 8.9
+
+======================================================================
+Entity analysis
+(Margaret, 0.246)
+(Vodafone, 0.165)
+(phone, 0.116)
+(issue, 0.042)
+(offer, 0.042)
+(letters, 0.039)
+(option, 0.030)
+(problem, 0.022)
+(dot com, 0.018)
+(Vodafone dot com, 0.012)
+(lowercase, 0.009)
+(settings menu screen, 0.008)
+(Internet, 0.008)
+(entry, 0.007)
+(password, 0.007)
+(authentication type, 0.006)
+(APN type, 0.006)
+(all, 0.006)
+(type, 0.006)
+(default, 0.006)
+(SIM, 0.005)
+(screen, 0.005)
+(internet, 0.005)
+(proxy, 0.005)
+(dots, 0.004)
+(part, 0.004)
+(mind, 0.004)
+(Access Point Names, 0.004)
+(L-I-V-E, 0.004)
+(benefits, 0.003)
+(increase, 0.003)
+(number, 0.003)
+(everything, 0.003)
+(PAP, 0.003)
+(P-A-P, 0.003)
+(data service, 0.003)
+(Goodbye, 0.002)
+(account, 0.001)
+(data traffic, 0.001)
+======================================================================
+
+--> APPLYING NLP ON CLIENT SIDE CONVERSATION
+======================================================================
+Text: Hello! Good day! I’m Thomas Jackson. I’m from Los Angeles, California. Sorry to bother you! I’ve just talked with one of your colleagues who has already told me how to set up my access points names. How to activate my mobile data service. But nothing works, changing the settings does nothing to make it work. My phone is a HTC One, registered on this phone number, but nothing, nothing works. I’ve done everything in the settings menu, I did everything that I was told. I did it a thousand times but it still doesn’t work. Say again. Ever since I’ve bought my phone. Yes. Just a bit. One second. Right. At the Access Point Names option? I see a plus sign. Name? Yeah. OK. What about APN? One second, just a bit. That’s it. Done! All right! I pressed OK. Proxy. Port. I’m trying to tell you that, just one second. That I have my menu language set to Italian. I’m trying to tell you how it would sound like in English. It says proxy, port, username. Is it LIVE or LINE? OK! All done! Yeah. Authentication type. OK! Ok. I did it. Ok. I’ve saved it. Yes. It has been selected. Good, so now I turn it off and I’ll call you back to. OK then. It will only take a couple of minutes. OK! Thank you so much for helping me! Thank you! Have a nice day! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 11.4
+
+======================================================================
+Entity analysis
+(colleagues, 0.160)
+(one, 0.090)
+(nothing, 0.082)
+(Thomas Jackson, 0.038)
+(Los Angeles, 0.038)
+(California, 0.038)
+(phone, 0.036)
+(everything, 0.034)
+(access points names, 0.027)
+(settings, 0.027)
+(HTC One, 0.026)
+(data service, 0.024)
+(second, 0.020)
+(bit, 0.019)
+(settings menu, 0.018)
+(sign, 0.017)
+(option, 0.016)
+(Name, 0.016)
+(phone number, 0.016)
+(times, 0.016)
+(Authentication type, 0.011)
+(Access Point Names, 0.011)
+(All, 0.010)
+(Proxy. Port, 0.010)
+(port, 0.006)
+(username, 0.005)
+(menu language, 0.005)
+(Italian, 0.003)
+(English, 0.003)
+======================================================================
+
+--> APPLYING NLP ON EACH INDIVIDUAL PHRASE
+======================================================================
+Text: This is Margaret speaking. How can I help you?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(Margaret, 1.000)
+======================================================================
+
+======================================================================
+Text: Hello! Good day! I’m Thomas Jackson. I’m from Los Angeles, California. Sorry to bother you! I’ve just talked with one of your colleagues who has already told me how to set up my access points names. How to activate my mobile data service. But nothing works, changing the settings does nothing to make it work. My phone is a HTC One, registered on this phone number, but nothing, nothing works. I’ve done everything in the settings menu, I did everything that I was told. I did it a thousand times but it still doesn’t work.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 4.1
+
+======================================================================
+Entity analysis
+(nothing, 0.131)
+(colleagues, 0.106)
+(Thomas Jackson, 0.097)
+(Los Angeles, 0.097)
+(one, 0.070)
+(everything, 0.061)
+(nothing, 0.056)
+(phone, 0.053)
+(settings, 0.044)
+(access points names, 0.042)
+(data service, 0.042)
+(California, 0.037)
+(HTC One, 0.033)
+(everything, 0.033)
+(settings menu, 0.029)
+(times, 0.020)
+(nothing, 0.017)
+(nothing, 0.017)
+(phone number, 0.013)
+======================================================================
+
+======================================================================
+Text: For how long have you been encountering this issue?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.5
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(issue, 1.000)
+======================================================================
+
+======================================================================
+Text: Say again.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: For how long has this issue been happening?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.5
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(issue, 1.000)
+======================================================================
+
+======================================================================
+Text: Ever since I’ve bought my phone.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(phone, 1.000)
+======================================================================
+
+======================================================================
+Text: Is it a new phone?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(phone, 1.000)
+======================================================================
+
+======================================================================
+Text: Yes.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: I’m glad to hear that it’s a new phone! Alright, I’ll help you with your problem. Would you kindly go again to the settings menu screen for me?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.9
+
+======================================================================
+Entity analysis
+(phone, 0.882)
+(problem, 0.077)
+(settings menu screen, 0.041)
+======================================================================
+
+======================================================================
+Text: Just a bit.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(bit, 1.000)
+======================================================================
+
+======================================================================
+Text: Is it Dual-SIM?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(SIM, 1.000)
+======================================================================
+
+======================================================================
+Text: One second. Right. At the Access Point Names option?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(second, 0.861)
+(option, 0.110)
+(Access Point Names, 0.029)
+======================================================================
+
+======================================================================
+Text: Yes, Access Point Names.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+(Access Point Names, 1.000)
+======================================================================
+
+======================================================================
+Text: I see a plus sign.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(sign, 1.000)
+======================================================================
+
+======================================================================
+Text: Yes. Press it and start editing a new APN entry.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(entry, 0.789)
+(APN, 0.211)
+======================================================================
+
+======================================================================
+Text: Name?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(Name, 1.000)
+======================================================================
+
+======================================================================
+Text: Internet. Type it in lowercase.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(Internet, 0.945)
+(lowercase, 0.055)
+======================================================================
+
+======================================================================
+Text: Yeah. OK.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: OK.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: What about APN?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(APN, 1.000)
+======================================================================
+
+======================================================================
+Text: Live dot Vodafone dot com. Again, only with lowercase letters.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(dot com, 0.769)
+(Vodafone, 0.164)
+(letters, 0.067)
+======================================================================
+
+======================================================================
+Text: One second, just a bit.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(second, 0.798)
+(bit, 0.202)
+======================================================================
+
+======================================================================
+Text: Again, it’s live dot Vodafone dot com.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(Vodafone dot com, 1.000)
+======================================================================
+
+======================================================================
+Text: That’s it. Done!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Press “OK” so that it stays saved. What comes after APN? APN type or proxy?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(type, 0.489)
+(proxy, 0.345)
+(APN, 0.166)
+======================================================================
+
+======================================================================
+Text: All right! I pressed OK. Proxy. Port. I’m trying to tell you that, just one second. That I have my menu language set to Italian. I’m trying to tell you how it would sound like in English. It says proxy, port, username.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.7
+
+======================================================================
+Entity analysis
+(Proxy. Port, 0.201)
+(second, 0.201)
+(menu language, 0.195)
+(port, 0.112)
+(Italian, 0.110)
+(username, 0.098)
+(English, 0.083)
+======================================================================
+
+======================================================================
+Text: It’s live, L-I-V-E, again in lowercase.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(lowercase, 0.536)
+(L-I-V-E, 0.464)
+======================================================================
+
+======================================================================
+Text: Is it LIVE or LINE?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: LIVE, L-I-V-E.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(L-I-V-E, 1.000)
+======================================================================
+
+======================================================================
+Text: OK! All done!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+(All, 1.000)
+======================================================================
+
+======================================================================
+Text: The password is Vodafone, all with lowercase letters.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(password, 0.680)
+(Vodafone, 0.166)
+(letters, 0.154)
+======================================================================
+
+======================================================================
+Text: Yeah.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: And after you’ve set the password to Vodafone, you’ll see right below it authentication type. It’s another option.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(password, 0.684)
+(option, 0.158)
+(Vodafone, 0.104)
+(authentication type, 0.055)
+======================================================================
+
+======================================================================
+Text: Authentication type.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(Authentication type, 1.000)
+======================================================================
+
+======================================================================
+Text: Right there. Make sure PAP is selected. That’s P-A-P.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+(PAP, 0.590)
+(P-A-P, 0.410)
+======================================================================
+
+======================================================================
+Text: OK!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: And for APN type, please type in default. That’s default, all in lowercase.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(APN type, 0.427)
+(default, 0.340)
+(all, 0.105)
+(lowercase, 0.074)
+(default, 0.053)
+======================================================================
+
+======================================================================
+Text: Ok. I did it.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: That would be all. Now make sure you save the APN by clicking those 3 dots, in the upper-right part of the screen.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(dots, 0.339)
+(part, 0.258)
+(APN, 0.221)
+(screen, 0.182)
+======================================================================
+
+======================================================================
+Text: Ok. I’ve saved it.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: After you’ve saved it, it’s important that it stays selected. Keep in mind that we’ve named it “internet”.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(mind, 0.652)
+(internet, 0.348)
+======================================================================
+
+======================================================================
+Text: Yes. It has been selected.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: That’s perfect! From what I’ve checked so far I see that you have option 6 activated on your account. I remind you that offer 6 has 50 GB of mobile data traffic, valid for 28 days. That means it’s active until the 4th of the following month. If you consider upgrading, to increase the valid period on your offer from 28 days to 5 weeks, you can opt for offer 7. Offer 7 has the same benefits as offer 6, but with an increase in the number of days it remains valid. OK, back to our problem. After we’ve finished talking shut down you phone, turn it on again, and check if your mobile data service is enabled and functional. I’ll call you back to check if everything is all right. Ok then.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 1.8
+
+======================================================================
+Entity analysis
+(offer, 0.402)
+(option, 0.178)
+(account, 0.069)
+(data traffic, 0.069)
+(offer, 0.063)
+(benefits, 0.043)
+(increase, 0.043)
+(phone, 0.039)
+(data service, 0.039)
+(everything, 0.027)
+(number, 0.014)
+(problem, 0.014)
+======================================================================
+
+======================================================================
+Text: Good, so now I turn it off and I’ll call you back to.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.6
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: No, I’ll call you to check if everything is OK.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.3
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+(everything, 1.000)
+======================================================================
+
+======================================================================
+Text: OK then. It will only take a couple of minutes.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: All right! I’ll call you back in 5 minutes, max.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: OK! Thank you so much for helping me!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.5
+--> Magnitude: 1.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Thank you as well for calling! Goodbye!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(Goodbye, 1.000)
+======================================================================
+
+======================================================================
+Text: Thank you! Have a nice day!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.4
+--> Magnitude: 0.8
+
+======================================================================
+Entity analysis
+======================================================================
+
+NATURAL LANGUAGE API END

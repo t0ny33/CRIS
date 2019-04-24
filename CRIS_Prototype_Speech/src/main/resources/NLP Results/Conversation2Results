@@ -1,0 +1,966 @@
+{
+  "CONVERSATION_ID": "c#2019-03-27 17:57:11.161",
+  "conversationText": [
+    "Good day! Michael speaking! How can I be of service?",
+    "Good day! My name is Alice! The thing is that my daughter-in-law has a rechargeable Vodafone SIM card. Just today she recharged it, but her mobile internet is not working correctly. I suspect that she needs to go through some settings in order to configure it correctly.",
+    "OK! Would you kindly tell me the number that she has on her SIM card? That’s so I can do a quick check.",
+    "It’s (+40)-7-1-2-3-4-5-6-7-8.",
+    "OK! Could you get a hold of her phone for me?",
+    "No, no. But I can go and get her.",
+    "OK! If she is close-by that’s wonderful! Meanwhile I’ll run an information check on the SIM card.",
+    "Just a bit. We’re living at the countryside… She’s somewhere in the garden.",
+    "Sure, sure.",
+    "Come on. Come on. Angela, open the door, please! OK! I’m right next to her!",
+    "All right! I have found out that there’s been a problem with the SIM card’s signal. I’ll provide assistance for restarting the card’s signal reception. Would you kindly take the phone and shut it down?",
+    "Yes. Tell me, Angela, where is the phone? Where’s the phone? Yes, I have the phone now.",
+    "OK then! Please, turn it off now and after a few seconds turn it back on. After this I’ll guide through the troubleshooting procedure to check that the internet is working correctly. You can still call and send messages from the phone, right?",
+    "Yeah! Yes. Angela, you can call and send messages from it, right?",
+    "When the phone has finished restarting please tell me if you see any signs of a signal reception.",
+    "Just a second. It’s still rebooting.",
+    "Of course!",
+    "It says here that there’s no reception signal. OH! Now it says Vodafone. Yes.",
+    "OK! All right, then! Please turn your mobile data back on and do a quick search on the web to see if everything is working correctly.",
+    "OK now! I’ve turned the mobile data back on. It’s activated!",
+    "I see that you’re showing as registered in the system. It says right here that you are currently connected to the internet.",
+    "Yeah! I can see the 4G icon in the top-right part of the screen.",
+    "I see. Would you please do a quick search on Google to see if everything is all right?",
+    "One second. Google is working.",
+    "It works now? Are the web pages loading correctly?",
+    "Yes, they are.",
+    "Good! Wonderful! This means that everything is up to date and running. It was a signal related issue. The SIM card was not able to receive any signal whatsoever.",
+    "I got it! OK now! Thank you for helping me!",
+    "Much appreciated! If there are any other questions or issues that I could help with.",
+    "There is actually a thing I would like to ask you.",
+    "Of course! I’m listening.",
+    "I’ve recently bought a phone from Vodafone and I’ve been told that after 6 months I can go and pick up my warranty. That would be somewhere around this March.",
+    "That’s right! The warranty for the phone is available only if you haven’t had any restrictions due to overdue payments on your account.",
+    "Yeah, yeah, yeah.",
+    "And after those conditions are met you can request the warranty and choose how would you like to receive it. You can pick up the money from any Vodafone store that handles payments or you can opt to receive the sum of money on your bank account.",
+    "I‘ve talked to them about this issue. I’ve checked sometime around February that I’ll be able to pick it up on the 18th of March.",
+    "I see!",
+    "OK! That’s all I had to ask you. Thank you for your help! Good night!",
+    "Thank you as well! Just a quick question concerning this call. Would you consider the problem that you were having as being solved during our first try? Is everything OK on your side?",
+    "Yes! Everything’s OK now.",
+    "All right then! I’ve asked you this question because, most likely, you’ll receive an automated feedback survey from our robot concerning this call. This should happen sometime during the next 24 hours.",
+    "I know this! I’ve done it before.",
+    "OK! OK! Just so you know, the rating you’ll give to the conversation will help me with my professional activity.",
+    "Okay, all right! ",
+    "Glad to hear that! Thank you for your time!",
+    "Good night! Bye, bye!",
+    "Good night to you, too. Bye, bye!"
+  ],
+  "agentText": [
+    "Good day! Michael speaking! How can I be of service?",
+    "OK! Would you kindly tell me the number that she has on her SIM card? That’s so I can do a quick check.",
+    "OK! Could you get a hold of her phone for me?",
+    "OK! If she is close-by that’s wonderful! Meanwhile I’ll run an information check on the SIM card.",
+    "Sure, sure.",
+    "All right! I have found out that there’s been a problem with the SIM card’s signal. I’ll provide assistance for restarting the card’s signal reception. Would you kindly take the phone and shut it down?",
+    "OK then! Please, turn it off now and after a few seconds turn it back on. After this I’ll guide through the troubleshooting procedure to check that the internet is working correctly. You can still call and send messages from the phone, right?",
+    "When the phone has finished restarting please tell me if you see any signs of a signal reception.",
+    "Of course!",
+    "OK! All right, then! Please turn your mobile data back on and do a quick search on the web to see if everything is working correctly.",
+    "I see that you’re showing as registered in the system. It says right here that you are currently connected to the internet.",
+    "I see. Would you please do a quick search on Google to see if everything is all right?",
+    "It works now? Are the web pages loading correctly?",
+    "Good! Wonderful! This means that everything is up to date and running. It was a signal related issue. The SIM card was not able to receive any signal whatsoever.",
+    "Much appreciated! If there are any other questions or issues that I could help with.",
+    "Of course! I’m listening.",
+    "That’s right! The warranty for the phone is available only if you haven’t had any restrictions due to overdue payments on your account.",
+    "And after those conditions are met you can request the warranty and choose how would you like to receive it. You can pick up the money from any Vodafone store that handles payments or you can opt to receive the sum of money on your bank account.",
+    "I see!",
+    "Thank you as well! Just a quick question concerning this call. Would you consider the problem that you were having as being solved during our first try? Is everything OK on your side?",
+    "All right then! I’ve asked you this question because, most likely, you’ll receive an automated feedback survey from our robot concerning this call. This should happen sometime during the next 24 hours.",
+    "OK! OK! Just so you know, the rating you’ll give to the conversation will help me with my professional activity.",
+    "Glad to hear that! Thank you for your time!",
+    "Good night to you, too. Bye, bye!"
+  ],
+  "clientText": [
+    "Good day! My name is Alice! The thing is that my daughter-in-law has a rechargeable Vodafone SIM card. Just today she recharged it, but her mobile internet is not working correctly. I suspect that she needs to go through some settings in order to configure it correctly.",
+    "It’s (+40)-7-1-2-3-4-5-6-7-8.",
+    "No, no. But I can go and get her.",
+    "Just a bit. We’re living at the countryside… She’s somewhere in the garden.",
+    "Come on. Come on. Angela, open the door, please! OK! I’m right next to her!",
+    "Yes. Tell me, Angela, where is the phone? Where’s the phone? Yes, I have the phone now.",
+    "Yeah! Yes. Angela, you can call and send messages from it, right?",
+    "Just a second. It’s still rebooting.",
+    "It says here that there’s no reception signal. OH! Now it says Vodafone. Yes.",
+    "OK now! I’ve turned the mobile data back on. It’s activated!",
+    "Yeah! I can see the 4G icon in the top-right part of the screen.",
+    "One second. Google is working.",
+    "Yes, they are.",
+    "I got it! OK now! Thank you for helping me!",
+    "There is actually a thing I would like to ask you.",
+    "I’ve recently bought a phone from Vodafone and I’ve been told that after 6 months I can go and pick up my warranty. That would be somewhere around this March.",
+    "Yeah, yeah, yeah.",
+    "I‘ve talked to them about this issue. I’ve checked sometime around February that I’ll be able to pick it up on the 18th of March.",
+    "OK! That’s all I had to ask you. Thank you for your help! Good night!",
+    "Yes! Everything’s OK now.",
+    "I know this! I’ve done it before.",
+    "Okay, all right! ",
+    "Good night! Bye, bye!"
+  ],
+  "speakerNo": 2
+}
+
+NATURAL LANGUAGE API START
+--> APPLYING NLP ON CONVERSATION AS BULK
+======================================================================
+Text: Good day! Michael speaking! How can I be of service? Good day! My name is Alice! The thing is that my daughter-in-law has a rechargeable Vodafone SIM card. Just today she recharged it, but her mobile internet is not working correctly. I suspect that she needs to go through some settings in order to configure it correctly. OK! Would you kindly tell me the number that she has on her SIM card? That’s so I can do a quick check. It’s (+40)-7-1-2-3-4-5-6-7-8. OK! Could you get a hold of her phone for me? No, no. But I can go and get her. OK! If she is close-by that’s wonderful! Meanwhile I’ll run an information check on the SIM card. Just a bit. We’re living at the countryside… She’s somewhere in the garden. Sure, sure. Come on. Come on. Angela, open the door, please! OK! I’m right next to her! All right! I have found out that there’s been a problem with the SIM card’s signal. I’ll provide assistance for restarting the card’s signal reception. Would you kindly take the phone and shut it down? Yes. Tell me, Angela, where is the phone? Where’s the phone? Yes, I have the phone now. OK then! Please, turn it off now and after a few seconds turn it back on. After this I’ll guide through the troubleshooting procedure to check that the internet is working correctly. You can still call and send messages from the phone, right? Yeah! Yes. Angela, you can call and send messages from it, right? When the phone has finished restarting please tell me if you see any signs of a signal reception. Just a second. It’s still rebooting. Of course! It says here that there’s no reception signal. OH! Now it says Vodafone. Yes. OK! All right, then! Please turn your mobile data back on and do a quick search on the web to see if everything is working correctly. OK now! I’ve turned the mobile data back on. It’s activated! I see that you’re showing as registered in the system. It says right here that you are currently connected to the internet. Yeah! I can see the 4G icon in the top-right part of the screen. I see. Would you please do a quick search on Google to see if everything is all right? One second. Google is working. It works now? Are the web pages loading correctly? Yes, they are. Good! Wonderful! This means that everything is up to date and running. It was a signal related issue. The SIM card was not able to receive any signal whatsoever. I got it! OK now! Thank you for helping me! Much appreciated! If there are any other questions or issues that I could help with. There is actually a thing I would like to ask you. Of course! I’m listening. I’ve recently bought a phone from Vodafone and I’ve been told that after 6 months I can go and pick up my warranty. That would be somewhere around this March. That’s right! The warranty for the phone is available only if you haven’t had any restrictions due to overdue payments on your account. Yeah, yeah, yeah. And after those conditions are met you can request the warranty and choose how would you like to receive it. You can pick up the money from any Vodafone store that handles payments or you can opt to receive the sum of money on your bank account. I‘ve talked to them about this issue. I’ve checked sometime around February that I’ll be able to pick it up on the 18th of March. I see! OK! That’s all I had to ask you. Thank you for your help! Good night! Thank you as well! Just a quick question concerning this call. Would you consider the problem that you were having as being solved during our first try? Is everything OK on your side? Yes! Everything’s OK now. All right then! I’ve asked you this question because, most likely, you’ll receive an automated feedback survey from our robot concerning this call. This should happen sometime during the next 24 hours. I know this! I’ve done it before. OK! OK! Just so you know, the rating you’ll give to the conversation will help me with my professional activity. Okay, all right!  Glad to hear that! Thank you for your time! Good night! Bye, bye! Good night to you, too. Bye, bye! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 33.7
+
+======================================================================
+Entity analysis
+(phone, 0.155)
+(daughter-in-law, 0.102)
+(Vodafone, 0.069)
+(order, 0.051)
+(SIM card, 0.025)
+(issue, 0.025)
+(SIM card, 0.025)
+(check, 0.024)
+(thing, 0.023)
+(internet, 0.021)
+(Angela, 0.021)
+(name, 0.020)
+(service, 0.017)
+(settings, 0.017)
+(door, 0.013)
+(Alice, 0.013)
+(number, 0.013)
+(Michael, 0.010)
+(signal, 0.010)
+(SIM card, 0.009)
+(SIM card, 0.009)
+(problem, 0.009)
+(somewhere, 0.008)
+(hold, 0.008)
+(reception signal, 0.008)
+(signs, 0.007)
+(everything, 0.007)
+(SIM card, 0.007)
+(card, 0.006)
+(bit, 0.006)
+(countryside, 0.006)
+(garden, 0.006)
+(search, 0.006)
+(signal reception, 0.005)
+(course, 0.005)
+(web, 0.005)
+(messages, 0.005)
+(second, 0.004)
+(system, 0.004)
+(troubleshooting procedure, 0.004)
+(4G icon, 0.004)
+(information check, 0.004)
+(questions, 0.004)
+(screen, 0.004)
+(part, 0.004)
+(web pages, 0.004)
+(7-1-2-3-4-5-6-7-8, 0.004)
+(question, 0.004)
+(rating, 0.003)
+(bank account, 0.003)
+(money, 0.003)
+(call, 0.003)
+(assistance, 0.003)
+(sum, 0.003)
+(payments, 0.003)
+(store, 0.003)
+(help, 0.003)
+(try, 0.003)
+(Google, 0.003)
+(data, 0.003)
+(feedback survey, 0.002)
+(side, 0.002)
+(robot, 0.002)
+(conversation, 0.002)
+(activity, 0.002)
+(warranty, 0.002)
+(issues, 0.002)
+(account, 0.001)
+(restrictions, 0.001)
+(conditions, 0.001)
+======================================================================
+
+--> APPLYING NLP ON AGENT SIDE CONVERSATION
+======================================================================
+Text: Good day! Michael speaking! How can I be of service? OK! Would you kindly tell me the number that she has on her SIM card? That’s so I can do a quick check. OK! Could you get a hold of her phone for me? OK! If she is close-by that’s wonderful! Meanwhile I’ll run an information check on the SIM card. Sure, sure. All right! I have found out that there’s been a problem with the SIM card’s signal. I’ll provide assistance for restarting the card’s signal reception. Would you kindly take the phone and shut it down? OK then! Please, turn it off now and after a few seconds turn it back on. After this I’ll guide through the troubleshooting procedure to check that the internet is working correctly. You can still call and send messages from the phone, right? When the phone has finished restarting please tell me if you see any signs of a signal reception. Of course! OK! All right, then! Please turn your mobile data back on and do a quick search on the web to see if everything is working correctly. I see that you’re showing as registered in the system. It says right here that you are currently connected to the internet. I see. Would you please do a quick search on Google to see if everything is all right? It works now? Are the web pages loading correctly? Good! Wonderful! This means that everything is up to date and running. It was a signal related issue. The SIM card was not able to receive any signal whatsoever. Much appreciated! If there are any other questions or issues that I could help with. Of course! I’m listening. That’s right! The warranty for the phone is available only if you haven’t had any restrictions due to overdue payments on your account. And after those conditions are met you can request the warranty and choose how would you like to receive it. You can pick up the money from any Vodafone store that handles payments or you can opt to receive the sum of money on your bank account. I see! Thank you as well! Just a quick question concerning this call. Would you consider the problem that you were having as being solved during our first try? Is everything OK on your side? All right then! I’ve asked you this question because, most likely, you’ll receive an automated feedback survey from our robot concerning this call. This should happen sometime during the next 24 hours. OK! OK! Just so you know, the rating you’ll give to the conversation will help me with my professional activity. Glad to hear that! Thank you for your time! Good night to you, too. Bye, bye! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 18.7
+
+======================================================================
+Entity analysis
+(phone, 0.072)
+(check, 0.055)
+(SIM card, 0.054)
+(hold, 0.049)
+(issue, 0.044)
+(service, 0.039)
+(number, 0.029)
+(questions, 0.028)
+(Michael, 0.023)
+(signal, 0.021)
+(SIM card, 0.020)
+(SIM card, 0.020)
+(card, 0.020)
+(problem, 0.019)
+(everything, 0.016)
+(signs, 0.015)
+(SIM card, 0.014)
+(search, 0.014)
+(signal reception, 0.012)
+(web, 0.011)
+(internet, 0.011)
+(course, 0.011)
+(assistance, 0.011)
+(payments, 0.011)
+(issues, 0.010)
+(system, 0.010)
+(troubleshooting procedure, 0.010)
+(messages, 0.010)
+(information check, 0.009)
+(question, 0.009)
+(web pages, 0.009)
+(rating, 0.008)
+(money, 0.008)
+(bank account, 0.008)
+(call, 0.008)
+(store, 0.007)
+(sum, 0.007)
+(warranty, 0.007)
+(try, 0.007)
+(side, 0.007)
+(Google, 0.006)
+(data, 0.005)
+(feedback survey, 0.005)
+(robot, 0.005)
+(conversation, 0.005)
+(activity, 0.005)
+(account, 0.003)
+(restrictions, 0.003)
+(conditions, 0.003)
+(Vodafone, 0.002)
+======================================================================
+
+--> APPLYING NLP ON CLIENT SIDE CONVERSATION
+======================================================================
+Text: Good day! My name is Alice! The thing is that my daughter-in-law has a rechargeable Vodafone SIM card. Just today she recharged it, but her mobile internet is not working correctly. I suspect that she needs to go through some settings in order to configure it correctly. It’s (+40)-7-1-2-3-4-5-6-7-8. No, no. But I can go and get her. Just a bit. We’re living at the countryside… She’s somewhere in the garden. Come on. Come on. Angela, open the door, please! OK! I’m right next to her! Yes. Tell me, Angela, where is the phone? Where’s the phone? Yes, I have the phone now. Yeah! Yes. Angela, you can call and send messages from it, right? Just a second. It’s still rebooting. It says here that there’s no reception signal. OH! Now it says Vodafone. Yes. OK now! I’ve turned the mobile data back on. It’s activated! Yeah! I can see the 4G icon in the top-right part of the screen. One second. Google is working. Yes, they are. I got it! OK now! Thank you for helping me! There is actually a thing I would like to ask you. I’ve recently bought a phone from Vodafone and I’ve been told that after 6 months I can go and pick up my warranty. That would be somewhere around this March. Yeah, yeah, yeah. I‘ve talked to them about this issue. I’ve checked sometime around February that I’ll be able to pick it up on the 18th of March. OK! That’s all I had to ask you. Thank you for your help! Good night! Yes! Everything’s OK now. I know this! I’ve done it before. Okay, all right!  Good night! Bye, bye! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 14.9
+
+======================================================================
+Entity analysis
+(daughter-in-law, 0.278)
+(thing, 0.065)
+(name, 0.058)
+(order, 0.054)
+(SIM card, 0.048)
+(internet, 0.047)
+(settings, 0.047)
+(Angela, 0.037)
+(Alice, 0.036)
+(Google, 0.026)
+(door, 0.024)
+(phone, 0.020)
+(bit, 0.018)
+(Vodafone, 0.017)
+(somewhere, 0.015)
+(reception signal, 0.014)
+(messages, 0.012)
+(second, 0.012)
+(countryside, 0.012)
+(garden, 0.012)
+(4G icon, 0.012)
+(part, 0.011)
+(screen, 0.011)
+(7-1-2-3-4-5-6-7-8, 0.011)
+(warranty, 0.008)
+(issue, 0.008)
+(Everything, 0.007)
+(data, 0.006)
+(help, 0.006)
+======================================================================
+
+--> APPLYING NLP ON EACH INDIVIDUAL PHRASE
+======================================================================
+Text: Good day! Michael speaking! How can I be of service?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 1.0
+
+======================================================================
+Entity analysis
+(Michael, 0.554)
+(service, 0.446)
+======================================================================
+
+======================================================================
+Text: Good day! My name is Alice! The thing is that my daughter-in-law has a rechargeable Vodafone SIM card. Just today she recharged it, but her mobile internet is not working correctly. I suspect that she needs to go through some settings in order to configure it correctly.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 2.3
+
+======================================================================
+Entity analysis
+(daughter-in-law, 0.519)
+(name, 0.157)
+(Alice, 0.101)
+(thing, 0.061)
+(order, 0.051)
+(SIM card, 0.035)
+(internet, 0.032)
+(settings, 0.024)
+(Vodafone, 0.021)
+======================================================================
+
+======================================================================
+Text: OK! Would you kindly tell me the number that she has on her SIM card? That’s so I can do a quick check.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 1.0
+
+======================================================================
+Entity analysis
+(SIM card, 0.404)
+(number, 0.325)
+(check, 0.270)
+======================================================================
+
+======================================================================
+Text: It’s (+40)-7-1-2-3-4-5-6-7-8.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+(7-1-2-3-4-5-6-7-8, 1.000)
+======================================================================
+
+======================================================================
+Text: OK! Could you get a hold of her phone for me?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(hold, 0.802)
+(phone, 0.198)
+======================================================================
+
+======================================================================
+Text: No, no. But I can go and get her.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: OK! If she is close-by that’s wonderful! Meanwhile I’ll run an information check on the SIM card.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 1.0
+
+======================================================================
+Entity analysis
+(SIM card, 0.733)
+(information check, 0.267)
+======================================================================
+
+======================================================================
+Text: Just a bit. We’re living at the countryside… She’s somewhere in the garden.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 1.0
+
+======================================================================
+Entity analysis
+(bit, 0.781)
+(countryside, 0.122)
+(garden, 0.060)
+(somewhere, 0.038)
+======================================================================
+
+======================================================================
+Text: Sure, sure.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Come on. Come on. Angela, open the door, please! OK! I’m right next to her!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+(door, 0.566)
+(Angela, 0.434)
+======================================================================
+
+======================================================================
+Text: All right! I have found out that there’s been a problem with the SIM card’s signal. I’ll provide assistance for restarting the card’s signal reception. Would you kindly take the phone and shut it down?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.2
+--> Magnitude: 1.4
+
+======================================================================
+Entity analysis
+(phone, 0.302)
+(signal, 0.183)
+(SIM card, 0.180)
+(problem, 0.129)
+(assistance, 0.113)
+(card, 0.056)
+(signal reception, 0.037)
+======================================================================
+
+======================================================================
+Text: Yes. Tell me, Angela, where is the phone? Where’s the phone? Yes, I have the phone now.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.8
+
+======================================================================
+Entity analysis
+(phone, 0.357)
+(phone, 0.309)
+(Angela, 0.198)
+(phone, 0.136)
+======================================================================
+
+======================================================================
+Text: OK then! Please, turn it off now and after a few seconds turn it back on. After this I’ll guide through the troubleshooting procedure to check that the internet is working correctly. You can still call and send messages from the phone, right?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(troubleshooting procedure, 0.382)
+(messages, 0.288)
+(phone, 0.203)
+(internet, 0.128)
+======================================================================
+
+======================================================================
+Text: Yeah! Yes. Angela, you can call and send messages from it, right?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(Angela, 0.735)
+(messages, 0.265)
+======================================================================
+
+======================================================================
+Text: When the phone has finished restarting please tell me if you see any signs of a signal reception.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.4
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(phone, 0.705)
+(signal reception, 0.167)
+(signs, 0.128)
+======================================================================
+
+======================================================================
+Text: Just a second. It’s still rebooting.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.3
+--> Magnitude: 0.7
+
+======================================================================
+Entity analysis
+(second, 1.000)
+======================================================================
+
+======================================================================
+Text: Of course!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(course, 1.000)
+======================================================================
+
+======================================================================
+Text: It says here that there’s no reception signal. OH! Now it says Vodafone. Yes.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 1.1
+
+======================================================================
+Entity analysis
+(reception signal, 0.853)
+(Vodafone, 0.147)
+======================================================================
+
+======================================================================
+Text: OK! All right, then! Please turn your mobile data back on and do a quick search on the web to see if everything is working correctly.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+(search, 0.425)
+(everything, 0.259)
+(data, 0.201)
+(web, 0.115)
+======================================================================
+
+======================================================================
+Text: OK now! I’ve turned the mobile data back on. It’s activated!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(data, 1.000)
+======================================================================
+
+======================================================================
+Text: I see that you’re showing as registered in the system. It says right here that you are currently connected to the internet.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.2
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(system, 0.804)
+(internet, 0.196)
+======================================================================
+
+======================================================================
+Text: Yeah! I can see the 4G icon in the top-right part of the screen.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.4
+--> Magnitude: 0.8
+
+======================================================================
+Entity analysis
+(4G icon, 0.566)
+(screen, 0.266)
+(part, 0.168)
+======================================================================
+
+======================================================================
+Text: I see. Would you please do a quick search on Google to see if everything is all right?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+(search, 0.574)
+(Google, 0.254)
+(everything, 0.172)
+======================================================================
+
+======================================================================
+Text: One second. Google is working.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(second, 0.808)
+(Google, 0.192)
+======================================================================
+
+======================================================================
+Text: It works now? Are the web pages loading correctly?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.1
+--> Magnitude: 0.7
+
+======================================================================
+Entity analysis
+(web pages, 1.000)
+======================================================================
+
+======================================================================
+Text: Yes, they are.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Good! Wonderful! This means that everything is up to date and running. It was a signal related issue. The SIM card was not able to receive any signal whatsoever.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 3.1
+
+======================================================================
+Entity analysis
+(issue, 0.510)
+(everything, 0.314)
+(signal, 0.112)
+(SIM card, 0.064)
+======================================================================
+
+======================================================================
+Text: I got it! OK now! Thank you for helping me!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.4
+--> Magnitude: 1.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Much appreciated! If there are any other questions or issues that I could help with.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.6
+--> Magnitude: 1.3
+
+======================================================================
+Entity analysis
+(questions, 0.756)
+(issues, 0.244)
+======================================================================
+
+======================================================================
+Text: There is actually a thing I would like to ask you.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(thing, 1.000)
+======================================================================
+
+======================================================================
+Text: Of course! I’m listening.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.4
+
+======================================================================
+Entity analysis
+(course, 1.000)
+======================================================================
+
+======================================================================
+Text: I’ve recently bought a phone from Vodafone and I’ve been told that after 6 months I can go and pick up my warranty. That would be somewhere around this March.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(phone, 0.472)
+(Vodafone, 0.301)
+(somewhere, 0.118)
+(warranty, 0.108)
+======================================================================
+
+======================================================================
+Text: That’s right! The warranty for the phone is available only if you haven’t had any restrictions due to overdue payments on your account.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+(warranty, 0.410)
+(phone, 0.235)
+(payments, 0.166)
+(account, 0.117)
+(restrictions, 0.073)
+======================================================================
+
+======================================================================
+Text: Yeah, yeah, yeah.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.2
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: And after those conditions are met you can request the warranty and choose how would you like to receive it. You can pick up the money from any Vodafone store that handles payments or you can opt to receive the sum of money on your bank account.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.0
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+(conditions, 0.513)
+(store, 0.126)
+(warranty, 0.104)
+(money, 0.073)
+(sum, 0.053)
+(money, 0.039)
+(Vodafone, 0.038)
+(bank account, 0.034)
+(payments, 0.020)
+======================================================================
+
+======================================================================
+Text: I‘ve talked to them about this issue. I’ve checked sometime around February that I’ll be able to pick it up on the 18th of March.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: -0.2
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(issue, 1.000)
+======================================================================
+
+======================================================================
+Text: I see!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: OK! That’s all I had to ask you. Thank you for your help! Good night!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 1.3
+
+======================================================================
+Entity analysis
+(help, 1.000)
+======================================================================
+
+======================================================================
+Text: Thank you as well! Just a quick question concerning this call. Would you consider the problem that you were having as being solved during our first try? Is everything OK on your side?
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 1.5
+
+======================================================================
+Entity analysis
+(problem, 0.405)
+(question, 0.239)
+(call, 0.162)
+(try, 0.114)
+(side, 0.080)
+======================================================================
+
+======================================================================
+Text: Yes! Everything’s OK now.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+(Everything, 1.000)
+======================================================================
+
+======================================================================
+Text: All right then! I’ve asked you this question because, most likely, you’ll receive an automated feedback survey from our robot concerning this call. This should happen sometime during the next 24 hours.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.6
+
+======================================================================
+Entity analysis
+(question, 0.416)
+(feedback survey, 0.264)
+(robot, 0.240)
+(call, 0.080)
+======================================================================
+
+======================================================================
+Text: I know this! I’ve done it before.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.3
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: OK! OK! Just so you know, the rating you’ll give to the conversation will help me with my professional activity.
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 1.0
+
+======================================================================
+Entity analysis
+(rating, 0.675)
+(activity, 0.200)
+(conversation, 0.126)
+======================================================================
+
+======================================================================
+Text: Okay, all right! 
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.1
+--> Magnitude: 0.1
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Glad to hear that! Thank you for your time!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.5
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Good night! Bye, bye!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.3
+--> Magnitude: 1.0
+
+======================================================================
+Entity analysis
+======================================================================
+
+======================================================================
+Text: Good night to you, too. Bye, bye!
+======================================================================
+Sentiment analysis
+
+--> Sentiment: 0.2
+--> Magnitude: 0.9
+
+======================================================================
+Entity analysis
+======================================================================
+
+NATURAL LANGUAGE API END

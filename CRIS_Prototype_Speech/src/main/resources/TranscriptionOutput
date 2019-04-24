@@ -3448,4 +3448,16 @@
   "sampleRate": 16000,
   "transcriptionText": "Could you please tell me what's the standard procedure when it comes to blocking a phone number?",
   "transcriptionTimestamp": "2019-04-18 11:49:32"
+}{
+  "gcsURI": "gs://cris-storage-bucket/short-audio-recordings/Voice 260.flac",
+  "audioEncoding": "FLAC",
+  "sampleRate": 16000,
+  "transcriptionText": "I'm calling because I think there's something wrong in my current invoice. It should have been paid already, but it seems like my payment has not been processed. Could you help me?",
+  "transcriptionTimestamp": "2019-04-23 03:35:10"
+}{
+  "gcsURI": "gs://cris-storage-bucket/short-audio-recordings/Voice 260.flac",
+  "audioEncoding": "FLAC",
+  "sampleRate": 16000,
+  "transcriptionText": "I'm calling because I think there's something wrong in my current invoice. It should have been paid already, but it seems like my payment has not been processed. Could you help me?",
+  "transcriptionTimestamp": "2019-04-23 05:51:16"
 }

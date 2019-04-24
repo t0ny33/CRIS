@@ -9,11 +9,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+import com.config.Config;
 import com.language.ClientNLP;
-import com.speech.DataStorage;
 import com.speech.Recognizer;
 import com.speech.Transcription;
 import com.storage.CloudStorageController;
+import com.storage.DataStorage;
 
 public class CRIS {
 	private boolean isCloudInitialized = false;
@@ -92,29 +93,25 @@ public class CRIS {
 		addMenuOption(4, "Display current transcript selection");
 		addMenuOption(5, "Change current trasncript selection");
 		addMenuOption(6, "Change current Cloud Storage active recording");
-		addMenuOption(7, "Change current Cloud Storage active bucket (X)");
-		addMenuOption(8, "Change current Cloud Storage active directory (X)");
-		addMenuOption(9, "Change current Cloud Storage content type (X)");
-		addMenuOption(10, "Change current Cloud Storage active file (X)");
-		addMenuOption(11, "Generate recording URI from current active selections");
-		addMenuOption(12, "Run speech transcription on selected recording");
-		addMenuOption(13, "Run speech transcription on a conversation (hard-coded)");
-		addMenuOption(14, "Run NLP on selected trasncript");
-		addMenuOption(15, "Run NLP on saved conversation transcript");
-		addMenuOption(16, "Console print all recording files for current bucket");
-		addMenuOption(17, "Console print all recording files for current directory");
-		addMenuOption(18, "Console print URI path for current active recording");
-		addMenuOption(19, "Console print saved transcripts");
-		addMenuOption(20, "Shut Down CRIS!");
+		addMenuOption(7, "Generate recording URI from current active selections");
+		addMenuOption(8, "Run speech transcription on selected recording");
+		addMenuOption(9, "Run speech transcription on a conversation (hard-coded)");
+		addMenuOption(10, "Run NLP on selected trasncript");
+		addMenuOption(11, "Run NLP on saved conversation transcript");
+		addMenuOption(12, "Console print all recording files for current bucket");
+		addMenuOption(13, "Console print all recording files for current directory");
+		addMenuOption(14, "Console print URI path for current active recording");
+		addMenuOption(15, "Console print saved transcripts");
+		addMenuOption(16, "Shut Down CRIS!");
 	}
 
 	public int getMenuChoice() throws InterruptedException, IOException {
 
-		int optionSelected = -999;
+		int optionSelected = 0;
 		Thread.sleep(1000);
 		System.out.println();
 		System.out.println("+----------------------------------------------------------------------------+");
-		System.out.print("| Please type in your selected option (0-20) ---> ");
+		System.out.print("| Please type in your selected option (1-16) ---> ");
 		if (sc.hasNextInt()) {
 			optionSelected = sc.nextInt();
 			return optionSelected;
@@ -129,23 +126,18 @@ public class CRIS {
 		if (sc.hasNext()) {
 			input = sc.next();
 			if (input.toUpperCase().equals("YES")) {
-				// System.out.println(input);
 				return 1;
 			}
 
 			if (input.toUpperCase().equals("NO")) {
-				// System.out.println(input);
 				return 0;
 			}
 		}
-
-		System.out.println(input);
 		System.out.println("+----------------------------------------------------------------------------+");
 		System.out.println("| ERROR: Invalid input detected!");
 		System.out.println("| Try again with correct values (YES/NO)...");
 		System.out.println("+----------------------------------------------------------------------------+");
 		System.out.println();
-		System.out.println(input);
 		getConfirmation();
 		return -1;
 	}
@@ -231,12 +223,9 @@ public class CRIS {
 	}
 
 	public void runCRIS() throws InterruptedException, IOException {
-		localLogStorage = new DataStorage(
-				"C:\\Users\\EneR\\Desktop\\Eclipse Workspace\\CRIS_Prototype_Speech\\src\\main\\resources\\CloudStorageLog");
-		jsonCloudStorage = new DataStorage(
-				"C:\\Users\\EneR\\Desktop\\Eclipse Workspace\\CRIS_Prototype_Speech\\src\\main\\resources\\CloudFileOutput");
-		jsonTranscriptionStorage = new DataStorage(
-				"C:\\Users\\EneR\\Desktop\\Eclipse Workspace\\CRIS_Prototype_Speech\\src\\main\\resources\\TranscriptionOutput");
+		localLogStorage = new DataStorage(Config.LOG_FILE_PATH);
+		jsonCloudStorage = new DataStorage(Config.CLOUD_STORAGE_LOG_FILE_PATH);
+		jsonTranscriptionStorage = new DataStorage(Config.TRANSCRIPTION_LOG_FILE_PATH);
 		displaymenu();
 		int choice = getMenuChoice();
 		while (true) {
@@ -307,66 +296,50 @@ public class CRIS {
 				break;
 			case 7:
 				displayOptionSelected(choice);
-				setCloudBucket();
-				break;
-			case 8:
-				displayOptionSelected(choice);
-				setCloudDirectory();
-				break;
-			case 9:
-				displayOptionSelected(choice);
-				setCloudContentType();
-				break;
-			case 10:
-				displayOptionSelected(choice);
-				setCloudFile();
-				break;
-			case 11:
-				displayOptionSelected(choice);
 				buildrecordingURI(selectedBucketName, selectedDirectoryName, selectedContentType,
 						selectedRecordingName);
 				displayGeneratedURI();
 				break;
-			case 12:
+			case 8:
 				displayOptionSelected(choice);
 				transcribeRecording(selectedURI);
 				break;
-			case 13:
+			case 9:
 				displayOptionSelected(choice);
 				transcribeConversation();
 				break;
-			case 14:
+			case 10:
 				displayOptionSelected(choice);
 				printShortPhraseNLP();
 				break;
-			case 15:
+			case 11:
 				displayOptionSelected(choice);
 				printConversationOutput();
 				break;
-			case 16:
+			case 12:
 				displayOptionSelected(choice);
 				printAllRecordingsURI(selectedBucketName, selectedContentType);
 				break;
-			case 17:
+			case 13:
 				displayOptionSelected(choice);
 				printBatchRecordingsURI(selectedBucketName, selectedDirectoryName, selectedContentType);
 				break;
-			case 18:
+			case 14:
 				displayOptionSelected(choice);
 				printSelectedURI();
 				break;
-			case 19:
+			case 15:
 				displayOptionSelected(choice);
 				printAllPhrases();
 				break;
-			case 20:
+			case 16:
 				displayOptionSelected(choice);
 				shutdownCRIS();
 				break;
 			default:
 				Thread.sleep(500);
 				System.out.println("+----------------------------------------------------------------------------+");
-				System.out.println("| Please type in a valid menu option! Only nubers 0 through 9 are allowed!");
+				System.out.println("| Please type in a valid menu option! Only nubers 0 through 16 are allowed!");
 				System.out.println("+----------------------------------------------------------------------------+");
 				System.out.println();
 			}
@@ -401,7 +374,7 @@ public class CRIS {
 
 	public void displayStorageSelection(String bucketName, String directoryName, String contentType,
 			String recordingName, String uriPath) throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		System.out.println("+----------------------------------------------------------------------------+");
 		System.out.println("| You have selected bucket: " + bucketName);
 		System.out.println("| You have selected directory: " + directoryName);
@@ -425,26 +398,19 @@ public class CRIS {
 	}
 
 	public void initializeSpeechClient() {
-		String languageCode;
-		String audioEncoding;
-		int audioSampleRate;
-
-		languageCode = "en-US";
-		audioSampleRate = 16000;
-		audioEncoding = "FLAC";
-
 		try {
-			this.speechRecognizer = new Recognizer(languageCode, audioSampleRate, audioEncoding);
+			this.speechRecognizer = new Recognizer(Config.SPEECH_RECOGNIZER_LANGUAGE_CODE,
+					Config.SPEECH_RECOGNIZER_AUDIO_SAMPLE_RATE, Config.SPEECH_RECOGNIZER_AUDIO_ENCODING_FLAC);
 			speechRecognizer.setLogStorageLocation(localLogStorage);
-			this.selectedBucketName = "speech-client-dialogue";
-			this.selectedDirectoryName = "All Recordings";
-			this.selectedContentType = "audio/flac";
+			this.selectedBucketName = Config.CLOUD_DEFAULT_BUCKET_NAME;
+			this.selectedDirectoryName = Config.CLOUD_SHORT_RECORDINGS_DIRECTORY_NAME;
+			this.selectedContentType = Config.CLOUD_AUDIO_FLAC_CONTENT_FLAG;
 			System.out.println("+----------------------------------------------------------------------------+");
 			System.out.println("| Initailizing the Speech Recognition Client...");
 			System.out.println("| Your configuration parameters:");
-			System.out.println("| Language code: " + languageCode);
-			System.out.println("| Audio sample rate: " + audioSampleRate);
-			System.out.println("| Audio encoding: " + audioEncoding);
+			System.out.println("| Language code: " + Config.SPEECH_RECOGNIZER_LANGUAGE_CODE);
+			System.out.println("| Audio sample rate: " + Config.SPEECH_RECOGNIZER_AUDIO_SAMPLE_RATE);
+			System.out.println("| Audio encoding: " + Config.SPEECH_RECOGNIZER_AUDIO_ENCODING_FLAC);
 			System.out.println("| DONE!");
 			System.out.println("+----------------------------------------------------------------------------+");
 			System.out.println();
@@ -452,21 +418,13 @@ public class CRIS {
 			System.out.println("+----------------------------------------------------------------------------+");
 			System.out.println("| ERROR: Something went wrong when initailizing the Speech Recognition Client");
 			System.out.println("| Check your configuration parameters and try again...");
-			System.out.println("| Language code: " + languageCode);
-			System.out.println("| Audio sample rate: " + audioSampleRate);
-			System.out.println("| Audio encoding: " + audioEncoding);
+			System.out.println("| Language code: " + Config.SPEECH_RECOGNIZER_LANGUAGE_CODE);
+			System.out.println("| Audio sample rate: " + Config.SPEECH_RECOGNIZER_AUDIO_SAMPLE_RATE);
+			System.out.println("| Audio encoding: " + Config.SPEECH_RECOGNIZER_AUDIO_ENCODING_FLAC);
 			System.out.println("+----------------------------------------------------------------------------+");
 			System.out.println();
 			e.printStackTrace();
 		}
-	}
-
-	public void changeJsonPath(DataStorage dataStorage, String newJsonPath) {
-		dataStorage.setStoragePath(newJsonPath);
-	}
-
-	public void changeLocalPath(DataStorage dataStorage, String newLocalPath) {
-		dataStorage.setStoragePath(newLocalPath);
 	}
 
 	public void printSelectedTranscription() {
@@ -511,11 +469,12 @@ public class CRIS {
 	public void selectPhrase() throws FileNotFoundException, IOException {
 		this.generatedPhrases = nlpClient.generateShortPhrasesArray();
 		System.out.println("+----------------------------------------------------------------------------+");
-		System.out.print("| Please type in your selected option (0-84) ---> ");
+		System.out.print("| Please type in your selected option (0 -> 84) ---> ");
 		int optionSelected = 0;
 		if (sc.hasNextInt()) {
 			optionSelected = sc.nextInt();
 			this.selectedTranscription = this.generatedPhrases.get(optionSelected);
+			System.out.println();
 			System.out.println("| Selected: " + this.generatedPhrases.get(optionSelected));
 			System.out.println("| This is now your active selection! ");
 			System.out.println("+----------------------------------------------------------------------------+");
@@ -524,6 +483,11 @@ public class CRIS {
 	}
 
 	public void printShortPhraseNLP() throws IOException {
+		if (this.selectedTranscription == null) {
+			printAllPhrases();
+			selectPhrase();
+			nlpClient.analyzeShortPhrase(this.selectedTranscription);
+		}
 		nlpClient.analyzeShortPhrase(this.selectedTranscription);
 	}
 
@@ -556,11 +520,11 @@ public class CRIS {
 	}
 
 	public void transcribeConversation() {
-		String uri = "gs://speech-client-dialogue/Conversations/";
-		System.out.print("| Please type in your selected audio conversation file (Voice 574-599.flac) ---> ");
+		String uri = Config.CLOUD_LONG_RECORDINGS_FILE_PATH;
+		System.out.print("| Please type in your selected audio conversation file (Voice 574 -> 599.flac) ---> ");
 		String selectedFile = sc.nextLine();
 		if (sc.hasNextLine()) {
-			uri = uri.concat("aaaaaaaaa");
+			uri = uri.concat(selectedFile);
 			System.out.println(uri);
 			speechRecognizer.setURI(uri);
 			try {

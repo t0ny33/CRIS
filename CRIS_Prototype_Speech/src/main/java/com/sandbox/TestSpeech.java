@@ -18,16 +18,16 @@ import com.google.cloud.speech.v1p1beta1.RecognizeResponse;
 import com.google.cloud.speech.v1p1beta1.SpeechClient;
 import com.google.cloud.speech.v1p1beta1.SpeechRecognitionAlternative;
 import com.google.cloud.speech.v1p1beta1.SpeechRecognitionResult;
-import com.speech.DataStorage;
 import com.speech.Recognizer;
 import com.speech.Transcription;
+import com.storage.DataStorage;
 
 public class TestSpeech {
 
 	public static void main(String[] args) throws Exception {
 		
 		//574-599
-		String gcsURI1 = "gs://speech-client-dialogue/Conversations/Voice 580.flac";
+		String gcsURI1 = "gs://cris-storage-bucket/long-audio-recordings/Voice 580.flac";
 		transcribeDiarization(gcsURI1);
 	}
 

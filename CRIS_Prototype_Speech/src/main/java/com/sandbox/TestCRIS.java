@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import com.google.cloud.storage.Storage;
-import com.speech.DataStorage;
 import com.speech.Recognizer;
 import com.speech.Transcription;
 import com.storage.*;

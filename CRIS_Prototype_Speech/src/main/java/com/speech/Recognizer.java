@@ -10,6 +10,7 @@ import com.google.cloud.speech.v1p1beta1.RecognitionMetadata;
 import com.google.cloud.speech.v1p1beta1.RecognitionMetadata.InteractionType;
 import com.google.cloud.speech.v1p1beta1.RecognitionMetadata.MicrophoneDistance;
 import com.google.cloud.speech.v1p1beta1.RecognitionMetadata.RecordingDeviceType;
+import com.storage.DataStorage;
 import com.google.cloud.speech.v1p1beta1.RecognizeResponse;
 import com.google.cloud.speech.v1p1beta1.SpeechClient;
 import com.google.cloud.speech.v1p1beta1.SpeechContext;
@@ -63,7 +64,7 @@ public class Recognizer {
 	}
 
 	public void addPhraseHints() {
-		String hintsFile = "C:\\Users\\EneR\\Desktop\\Eclipse Workspace\\CRIS_Prototype_Speech\\src\\main\\resources\\PhraseHints";
+		String hintsFile = "src\\main\\resources\\PhraseHints";
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";

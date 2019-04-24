@@ -15,6 +15,10 @@ public class Conversation {
 		this.clientText = new ArrayList<>();
 		this.conversationText = new ArrayList<>();
 	}
+	
+	public String getID() {
+		return CONVERSATION_ID;
+	}
 
 	public void addAgentLine(String line) {
 		agentText.add(line);

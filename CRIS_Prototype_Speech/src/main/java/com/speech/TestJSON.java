@@ -3,6 +3,8 @@ package com.speech;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.storage.DataStorage;
+
 public class TestJSON {
 
 	public static void main(String[] args) {
@@ -22,7 +24,7 @@ public class TestJSON {
 		allTrascriptions.add(t5);
 
 		DataStorage d1 = new DataStorage(
-				"C:\\Users\\EneR\\Desktop\\Eclipse Workspace\\CRIS_Prototype_Speech\\src\\main\\resources\\TranscriptionOutput");
+				"CRIS_Prototype_Speech\\src\\main\\resources\\TranscriptionOutput");
 		d1.saveTranscriptions(allTrascriptions);
 		d1.saveTranscription(t6);
 
