@@ -1,0 +1,43 @@
+1. Problems concerning billing and invoice.
+
+1.1 Hello! I'm calling because I think there's something wrong with my current invoice. It should have been paid already, but it seems like my payment has not been processed. Could you help me?
+
+1.2 I'm sure there's something gone wrong with my current payment. It doesn't show up as being paid, even though I did so 1 week before. I think there might be a problem somewhere.
+
+1.3 My latest bill is showing me a wrong amount that I have to pay. I have a fixed pay per month, but here is more than usual.
+
+1.4 I think you got my bill all wrong. There's no way that I have to pay that much money. Could you please check the issue?
+
+1.5 What is happening with my bill? I think something is wrong because it shows me that I have to pay more than what I'm supposed to. Is this normal?
+
+1.6 Could you please help me with my current bill? I think it shows more than it should. I don't think that this was supposed to happen, right?
+
+1.7 Explain to me exactly why is my current bill showing more than usual. Is that the way you treat your customers? I demand immediate explanations. Right now.
+
+1.8 OK, so the thing is that my current invoice doesn't appear in my history. Why is that? I've paid it already and have never been late with my payments. Also, on a bill that I've received 2 months ago, I was charged extra for no good reason. These are my issues right now.
+
+1.9 The invoice that was sent to me is not on my name, I think you got it wrong. I know this because it's not the first time that this has happened to me.
+
+1.10 It's the 3rd time that my invoice payment was declined . If you tell me that this is normal, I can assure you that it's not.
+
+2. Billing and invoice interrogation requests.
+
+2.1 Could you please give me some information about my current billing situation. I'm mostly interested in what happened in the previous 6 months. Thank you.
+
+2.2 I'm requesting additional information about my last bill situation. Could you please help me with that?
+
+2.3 Yeah, I want to find out more about my subscription. Could you help me with that?
+
+2.4 What's the status with my billing as of now? Are there any late payments?
+
+2.5 Could you send me the details of my latest bills and invoices, please?
+
+2.6 I'm calling because I would like to find out more about my current invoice situation. What's the status on my subscription? Is there anything out of the ordinary that I should be aware of right now? That's because I'm seeing some small extra payments in my bill every month. I need to know what that's related to.
+
+2.7 Provide me some information about my current billing situation, please. Oh, and what's my subscription's status, as well.
+
+2.8 I'm calling for my subscription and billing status. Provide me with some detailed information over the last 4 months. I'm interested in additional costs, late payments, and future bonuses.
+
+2.9 I'm calling for details about my invoice status, payments as well. Could you please provide me with some information?
+
+2.10 I'm calling because, uh, there are some things I'd like to know about my last payment. Could you also include all payments from the last 3 months? I'd like to review them to see if something is wrong. I have a feeling that I'm receiving extra charges.
